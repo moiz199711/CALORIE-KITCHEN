@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contacts</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body style="margin: 0%;padding: 0%;">
+	<div class="upper" style="display: flex;flex-direction: inline;">
+		<img src="download.jpg" style="margin-left:2%;padding: 1%;height: 100px;">
+		<h1 style="margin-left: 45%;margin-top: 4%;"><a href="Home.html" style="color:black;font-family:calibri;font-size: 55%;font-weight: normal;text-decoration: none;">HOME</a></h1>
+		<h1 style="margin-left: 3%;margin-top: 4%;"><a href="menu.html" style="color:black;font-family:calibri;font-size: 55%;font-weight: normal;text-decoration: none;">MENU & ORDER</a></h1>
+		<h1 style="margin-left: 3%;margin-top: 4%;"><a href="blogs.html" style="color:black;font-family:calibri;font-size: 55%;font-weight: normal;text-decoration: none;">BLOGS</a></h1>
+		<h1 style="margin-left: 3%;margin-top: 4%;"><a href="social.html" style="color:black;font-family:calibri;font-size: 55%;font-weight: normal;text-decoration: none;">SOCIAL</a></h1>
+		<h1 style="margin-left: 3%;margin-top: 4%;"><a href="contacts.html" style="color:black;font-family:calibri;font-size: 55%;font-weight: normal;text-decoration: none;border:2px solid;border-left: none;border-right: none;border-top: none;">CONTACTS</a></h1>
+</div>
+		<img src="social1.jpg" style="height: 300px;width: 100%;margin-top: 2%;">
+		<h1 style="color: white;margin-top: -13%;margin-left: 35%;font-size: 400%;font-family: calibri;">CONTACT US</h1>
+	<div>
+	<div>
+		<h1 style="margin-top: 12%;margin-left: 5%;font-family: calibri;font-size: 200%;">GET IN TOUCH</h1>
+		<p style="margin-left: 5%;font-family: calibri;font-size: 100%;">The Calorie Kitchen is located on the second floor within the BOMISO Gym & Spa<br> at Good Earth City Center mall. The restaurant and gym both have their own entrances.</p>
+		<p style="margin-left: 5%;font-family: calibri;font-size: 100%;margin-top: 2%;">If you have questions or comments, please get a hold of us in whichever way is most<br> convenient. Ask away. There is no reasonable question that our team can not answer</p>
+		<p style="margin-left: 15%;margin-top: 2%;font-family: calibri;">“Making your favorite Meal Healthier”</p>
+		<h1 style="margin-left: 5%;font-family: calibri;font-size: 200%;margin-top: 4%;">CALL US</h1>
+		<h1 style="margin-left: 5%;font-family: calibri;font-size: 120%;">88001 77880</h1>
+	</div>
+	<div style="margin-left: 50%;margin-top: -25%;">
+		<input id="yes" type="text" placeholder="First Name" style="margin-left: 15%;padding:1.5%;border-radius: 2%;border-color: black;border:1px solid;padding-right:5%; ">
+		<input id="yes" type="text" placeholder="Last Name" style="margin-left: 2%;padding:1.5%;border-radius: 2%;border-color: black;border:1px solid;padding-right:5%; ">
+		<input id="yes" type="text" placeholder="Email" style="margin-left: 15%;padding:1.5%;border-radius: 2%;border-color: black;border:1px solid;padding-right:39.5%;margin-top: 3%; ">
+		<input id="yes" type="text" placeholder="Message" style="margin-left: 15%;padding:1.5%;border-radius: 2%;border-color: black;border:1px solid;padding-right:39.5%;margin-top: 3%;padding-bottom: 20%; ">
+		<input onclick="sent()" type="button" value="SEND MESSAGE" style="outline: none;margin-left: 15%;margin-top: 3%;padding:2%;border-radius: 5%;background-color: darkgrey;border: 1px solid;border-color: darkgrey;color: white;font-family: calibri;">
+		<h1 id="none" ></h1>
+	</div>
+	<div style="border:1px solid;width: 100%;background-color: black;height: 500px;margin-top: 10%;">
+		<h1 style="margin-left: 5%;color: white;font-family: calibri;font-size: 120%;margin-top: 5%;">ABOUT US</h1>
+		<h1 style="margin-left: 48%;color: white;font-family: calibri;font-size: 120%;margin-top: 5%;">✻</h1>
+		<p style="color: white;margin-left: 5%;font-family: calibri;margin-top: 5%;">At The Calorie Kitchen, we strive in making your favorite meal healthier. We offer a variety of nutritional products made from 100% wheat base, raw protein, low fat dairy with no<br> artificial flavor, no sugar and no preservatives. #StayFitWithUS</p>
+		<h1 style="margin-left: 5%;margin-top: 5%;color: white;font-family: calibri;font-size: 150%;">CONNECT WITH US</h1>
+		<img id="facebook" src="fb.png" style="margin-left: 5%;outline: none;" onclick="facebook()">
+		<img id="insta" src="insta.png" style="margin-left: 0.5%;margin-top: 2%;outline: none;" onclick="insta()">
+	</div>
+	<script>
+		function facebook()
+		{
+			window.location="https://www.facebook.com/";
+			return false;
+		}
+		function insta()
+		{
+		 	window.location="https://www.instagram.com/accounts/login/";
+		 	return false;
+		}
+		function order()
+		{
+			window.location="order.html";
+			return false;
+		}
+	</script>
+
+	<script>
+		function sent()
+		{	
+			alert ("THANKS FOR YOUR FEEDBACK");
+		}
+	</script>
+
+</body>
+</html>

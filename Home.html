@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calorie Kitchen</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body background="yes.jpg" style="background-repeat: no-repeat;background-size:100%;background-position:top; margin: 0%;padding: 0%;">
+	<div class="upper" style="display: flex;flex-direction: inline;">
+		<img src="download.jpg" style="margin-left:2%;padding: 1%;height: 100px;">
+		<h1 style="margin-left: 45%;margin-top: 4%;"><a href="Home.html" style="color:white;font-family:calibri;font-size: 55%;font-weight: normal;text-decoration: none;border:2px solid;border-left: none;border-right: none;border-top: none;">HOME</a></h1>
+		<h1 style="margin-left: 3%;margin-top: 4%;"><a href="menu.html" style="color:white;font-family:calibri;font-size: 55%;font-weight: normal;text-decoration: none;">MENU & ORDER</a></h1>
+		<h1 style="margin-left: 3%;margin-top: 4%;"><a href="blogs.html" style="color:white;font-family:calibri;font-size: 55%;font-weight: normal;text-decoration: none;">BLOGS</a></h1>
+		<h1 style="margin-left: 3%;margin-top: 4%;"><a href="social.html" style="color:white;font-family:calibri;font-size: 55%;font-weight: normal;text-decoration: none;">SOCIAL</a></h1>
+		<h1 style="margin-left: 3%;margin-top: 4%;"><a href="contacts.html" style="color:white;font-family:calibri;font-size: 55%;font-weight: normal;text-decoration: none;">CONTACTS</a></h1>
+</div>
+<div>
+	<h1 style="margin-left: 34%;margin-top:15%;margin-bottom: 2%; font-size:600%;color:yellow;font-family: calibri;">WELCOME<br></h1>
+	<h1 style="margin-left: 28%;margin-top: -2%; font-size:400%;color:white;font-family: calibri;">TO CALORIE KITCHEN</h1>
+</div>
+<div style="background-color: white;height: 550px;width: 100%;margin-top: 40%;display: flex;flex-direction: inline; ">
+	<input id="discover" type="image" src="discover.png" style="outline: none;border: none;outline: none;" onclick="discover()">
+	<img src="juice.jpg" style="margin-left: 10%;height:420px;margin-top: 0%;">
+	<img src="cusine.jpg" style="margin-left: 4%;height:420px;margin-top:0%;">
+</div>
+<div>
+	<img src="one.jpg" style="height: 600px;width: 100%;margin-left: 0%;">
+</div>
+<div>
+	<img src="menu.jpg" style="outline: none;height:550px;margin-left: 4%;margin-top: 4%; ">
+	<input type="image" src="discovermenu.png" onclick="discovermenu()" style="margin-left: 4%;outline: none;">
+</div>
+<div>
+	<img src="icecream.jpg" style="height:600px;width: 100%;margin-top: 4%; ">
+</div>
+<div>
+	<input type="image" src="nutritions.png" onclick="nutritions()" style="outline: none;margin-left:4%">
+	<img src="item1.jpg" style="height: 550px;margin-left: 23%;margin-top: 5%;">
+</div>
+<div style="border:1px solid;width: 100%;background-color: black;height: 500px;margin-top: 10%;">
+		<h1 style="margin-left: 5%;color: white;font-family: calibri;font-size: 120%;margin-top: 5%;">ABOUT US</h1>
+		<h1 style="margin-left: 48%;color: white;font-family: calibri;font-size: 120%;margin-top: 5%;">✻</h1>
+		<p style="color: white;margin-left: 5%;font-family: calibri;margin-top: 5%;">At The Calorie Kitchen, we strive in making your favorite meal healthier. We offer a variety of nutritional products made from 100% wheat base, raw protein, low fat dairy with no<br> artificial flavor, no sugar and no preservatives. #StayFitWithUS</p>
+		<h1 style="margin-left: 5%;margin-top: 5%;color: white;font-family: calibri;font-size: 150%;">CONNECT WITH US</h1>
+		<img id="facebook" src="fb.png" style="margin-left: 5%;outline: none;" onclick="facebook()">
+		<img id="insta" src="insta.png" style="margin-left: 0.5%;margin-top: 2%;outline: none;" onclick="insta()">
+	</div>
+	<script>
+		function facebook()
+		{
+			window.location="https://www.facebook.com/";
+			return false;
+		}
+		function insta()
+		{
+		 	window.location="https://www.instagram.com/accounts/login/";
+		 	return false;
+		}
+		function order()
+		{
+			window.location="order.html";
+			return false;
+		}
+	</script>
+<script>
+	function discover()
+	{
+		window.location="aboutus.html";
+		return false;
+	}
+	function discovermenu()
+	{
+		window.location ="menu.html";
+		return false;
+	}
+	function nutritions()
+	{
+		window.location="order.html";
+		return false;
+	}
+	
+</script>
+</body>
+</html>

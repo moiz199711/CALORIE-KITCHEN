@@ -1,0 +1,10 @@
+.upper a:hover{
+	border: 2px solid;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+}
+.Searchbutton:hover{
+	background-color: lightgrey;
+	transition: 0.6s ;
+}
